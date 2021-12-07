@@ -1,11 +1,24 @@
 body{
     margin:0;
     font-family: 'Balsamiq Sans', cursive;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-size: 30px;
 }
 
+/*head*/
+.toplevel{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    z-index: 5;
+}
 
+/*video section*/
 .intro{
     max-height: 100vh;
     overflow: hidden;
@@ -60,13 +73,42 @@ body{
 
 }
 
-.toplevel{
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 5%;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    z-index: 5;
+
+/*body*/
+.info{
 }
+
+.mes{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.mesInv{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.fix{
+    width: 80%;
+    height: 80%;
+}
+
+.Photo{
+    background-color: black;
+    border:8px solid black;
+    margin:0 0;
+}
+
+
+.textinfo{
+    text-align: center;
+}
+
+
+
